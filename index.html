@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Daily Games</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header>
+            <h1>Sara Daily Games</h1>
+        </header>
+
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Cerca un gioco...">
+
+        </section>
+
+        <section class="filters">
+
+            <button class="filter-btn active" data-category="Tutti">
+                Tutti
+            </button>
+
+            <button class="filter-btn" data-category="Parole">
+                Parole
+            </button>
+
+            <button class="filter-btn" data-category="Anime">
+                Anime
+            </button>
+
+            <button class="filter-btn" data-category="Musica">
+                Musica
+            </button>
+
+            <button class="filter-btn" data-category="Geografia">
+                Geografia
+            </button>
+
+            <button class="filter-btn" data-category="Curiosità">
+                Curiosità
+            </button>
+
+            <button class="filter-btn" data-category="Preferiti">
+                ⭐
+            </button>
+
+        </section>
+
+        <section
+            id="gamesContainer"
+            class="games-grid">
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
